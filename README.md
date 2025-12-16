@@ -33,19 +33,20 @@ Each step is implemented as a **LangGraph node**, with shared state passed betwe
 
 invoice_agent/
 │
-├── main.py # Entry point + FastAPI UI + resume logic
-├── graph.py # LangGraph workflow definition
-├── state.py # Shared workflow state
-├── bigtool.py # Dynamic tool selection abstraction
+├── main.py          # Entry point + FastAPI UI + resume logic
+├── graph.py         # LangGraph workflow definition
+├── state.py         # Shared workflow state
+├── bigtool.py       # Dynamic tool selection abstraction
 │
 ├── nodes/
-│ ├── intake.py # Invoice intake & validation
-│ ├── understand.py # OCR + parsing logic
-│ ├── match.py # Two-way matching logic
-│ └── checkpoint.py # HITL checkpoint persistence
+│   ├── intake.py        # Invoice intake & validation
+│   ├── understand.py    # OCR + parsing logic
+│   ├── match.py         # Two-way matching logic
+│   └── checkpoint.py    # HITL checkpoint persistence
 │
 └── db/
-└── demo.db # SQLite checkpoint store
+    └── demo.db          # SQLite checkpoint store
+
 
 
 
