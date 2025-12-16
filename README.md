@@ -31,8 +31,8 @@ Each step is implemented as a **LangGraph node**, with shared state passed betwe
 ---
 ## Project Structure
 
+```
 invoice_agent/
-│
 ├── main.py          # Entry point + FastAPI UI + resume logic
 ├── graph.py         # LangGraph workflow definition
 ├── state.py         # Shared workflow state
@@ -46,6 +46,8 @@ invoice_agent/
 │
 └── db/
     └── demo.db          # SQLite checkpoint store
+```
+
 
 
 
