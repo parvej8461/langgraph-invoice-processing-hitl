@@ -66,7 +66,7 @@ pip install langgraph fastapi uvicorn python-multipart
 
 
 ## Running the Workflow
-### Step 1 — Trigger Invoice Processing
+## Step 1 — Trigger Invoice Processing
 python main.py
 
 
@@ -79,7 +79,7 @@ CHECKPOINT reached — pausing workflow
 This creates a HITL checkpoint in the database.
 
 ## Step 2 — Start Human Review UI
-### uvicorn main:app --reload
+## uvicorn main:app --reload
 
 
 Open in browser:
